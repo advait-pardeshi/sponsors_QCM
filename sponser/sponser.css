@@ -1,0 +1,58 @@
+@import url("https: //fonts.googleapis.com/css?family=Muli:wght@400;700&display=swap");
+:root {
+  --green: #2ec4b6;
+  --red: #e71d36;
+  --white: #fdfffc;
+  --dark-blue: #011627;
+  --yellow: #ff9f1c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--dark-blue);
+}
+
+#sponser .block {
+  overflow: hidden;
+  width: 80vw;
+  margin: 50px auto;
+}
+
+#sponser .animation {
+  width: auto;
+  height: 100px;
+  font-size: 0px;
+}
+
+#sponser .animation div {
+  display: inline-block;
+  width: auto;
+  float: none;
+  padding: 0 10px;
+}
+
+#sponser img {
+  width: 200px;
+  height: 200px;
+}
+
+@media (max-width: 750px) {
+  #sponser .block {
+    width: 85vw;
+  }
+}
+
+@media (max-width: 600px) {
+  #sponser .block {
+    width: 95vw;
+  }
+  #sponser img {
+    width: 150px;
+    height: 150px;
+  }
+}
+/*# sourceMappingURL=sponser.css.map */
